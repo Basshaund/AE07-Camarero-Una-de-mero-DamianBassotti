@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Titillium+Web:wght@300;400;700&display=swap');
+
+/* aqui guardo los colores para no repetirlos por todo el css
+   si quiero cambiar el rojo lo cambio aqui y ya esta en todos lados */
+:root {
+    --negro:        #07070f;
+    --negro-suave:  #0d0d1a;
+    --rojo:         #ff3c6e;
+    --amarillo:     #ffe033;
+    --cyan:         #00e5ff;
+    --magenta:      #c030ff;
+    --verde:        #00ff9d;
+    --texto:        #f0eeff;
+    --texto-suave:  rgba(240, 238, 255, 0.5);
+}
+
+/* reseteo margen y padding de todo para que no haya sorpresas */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos generales de la pagina y background personalizado */
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: var(--negro);
+    color: var(--texto);
+
+    /* esto hace la cuadricula de fondo
+       son dos gradientes encima del otro, uno horizontal y otro vertical
+       cada linea tiene 1px y el resto es transparente */
+    background-image:
+        linear-gradient(rgba(255, 60, 110, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 60, 110, 0.06) 1px, transparent 1px);
+    background-size: 44px 44px;
+}
+
+
+/* la cabecera de arriba con el nombre del restaurante */
+.cabecera {
+    text-align: center;
+    padding: 3rem 1rem 2.5rem;
+    border-bottom: 2px solid var(--rojo);
+
+    /* gradiente de fondo suave para que no sea negro plano */
+    background: radial-gradient(ellipse 80% 55% at 50% 0%, rgba(255, 60, 110, 0.18), transparent 70%);
+}
+
+.titulo-grande {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: clamp(2.6rem, 9vw, 5rem); /* clamp = minimo, preferido, maximo segun pantalla */
+    color: var(--rojo);
+
+    /* text-shadow con dos capas da el efecto de brillo neon
+       los dos primeros valores son offset x e y, el tercero es el desenfoque */
+    text-shadow: 0 0 12px var(--rojo), 0 0 40px rgba(255, 60, 110, 0.3);
+    letter-spacing: 0.04em;
+}
+
+.titulo-pequeno {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: clamp(0.9rem, 3vw, 1.5rem);
+    color: var(--amarillo);
+    letter-spacing: 0.22em;
+    text-shadow: 0 0 10px var(--amarillo);
+    margin-top: 0.3rem;
+}
+
+.subtitulo {
+    font-size: 0.72rem;
+    color: var(--texto-suave);
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+}
+
+
+/* el grid de dos columnas donde van las secciones */
+.contenedor-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* dos columnas iguales */
+    max-width: 1060px;
+    margin: 0 auto; /* centrado en la pagina */
+}
+
+
+/* cada seccion del menu (arepas, sopas, etc) */
+.seccion {
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background-color: var(--negro-suave);
+}
+
+/* linea de color arriba de cada seccion segun su tipo
+   esto funciona porque en el php le puse class="seccion arepas" */
+.seccion.arepas    { border-top: 3px solid var(--amarillo); }
+.seccion.sopas     { border-top: 3px solid var(--cyan); }
+.seccion.platos    { border-top: 3px solid var(--rojo); }
+.seccion.pasapalos { border-top: 3px solid var(--verde); }
+.seccion.postres   { border-top: 3px solid var(--magenta); }
+.seccion.bebidas   { border-top: 3px solid var(--cyan); }
+
+/* titulo de cada seccion */
+.titulo-seccion {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    /* linea separadora abajo del titulo */
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* color del titulo segun la seccion */
+.seccion.arepas    .titulo-seccion { color: var(--amarillo); text-shadow: 0 0 10px var(--amarillo); }
+.seccion.sopas     .titulo-seccion { color: var(--cyan);     text-shadow: 0 0 10px var(--cyan); }
+.seccion.platos    .titulo-seccion { color: var(--rojo);     text-shadow: 0 0 10px var(--rojo); }
+.seccion.pasapalos .titulo-seccion { color: var(--verde);    text-shadow: 0 0 10px var(--verde); }
+.seccion.postres   .titulo-seccion { color: var(--magenta);  text-shadow: 0 0 10px var(--magenta); }
+.seccion.bebidas   .titulo-seccion { color: var(--cyan);     text-shadow: 0 0 10px var(--cyan); }
+
+/* color del precio segun la seccion */
+.seccion.arepas    .precio-plato { color: var(--amarillo); text-shadow: 0 0 6px var(--amarillo); }
+.seccion.sopas     .precio-plato { color: var(--cyan);     text-shadow: 0 0 6px var(--cyan); }
+.seccion.platos    .precio-plato { color: var(--rojo);     text-shadow: 0 0 6px var(--rojo); }
+.seccion.pasapalos .precio-plato { color: var(--verde);    text-shadow: 0 0 6px var(--verde); }
+.seccion.postres   .precio-plato { color: var(--magenta);  text-shadow: 0 0 6px var(--magenta); }
+.seccion.bebidas   .precio-plato { color: var(--cyan);     text-shadow: 0 0 6px var(--cyan); }
+
+
+/* la lista de platos sin los puntos de lista por defecto */
+.lista-platos {
+    list-style: none;
+}
+
+/* cada plato de la lista */
+.un-plato {
+    padding: 0.85rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.un-plato:last-child {
+    border-bottom: none;
+}
+
+/* la fila con nombre puntitos y precio
+   uso flex para que los puntitos se estiren entre el nombre y el precio */
+.fila-nombre-precio {
+    display: flex;
+    align-items: baseline;
+    gap: 0.25rem;
+}
+
+.nombre-plato {
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    white-space: nowrap; /* que no salte de linea */
+}
+
+/* los puntitos que van entre el nombre y el precio
+   flex:1 hace que se estiren para ocupar todo el espacio del medio */
+.puntitos {
+    flex: 1;
+    border-bottom: 2px dotted rgba(255, 255, 255, 0.12);
+    margin-bottom: 3px;
+    min-width: 10px;
+}
+
+.precio-plato {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.descripcion-plato {
+    font-size: 0.73rem;
+    font-weight: 300;
+    color: var(--texto-suave);
+    font-style: italic;
+    margin-top: 0.2rem;
+}
+
+/* el contenedor de las etiquetas */
+.etiquetas {
+    display: flex;
+    flex-wrap: wrap; /* si no caben en una fila saltan a la siguiente */
+    gap: 0.3rem;
+    margin-top: 0.4rem;
+}
+
+/* estilo base de todas las etiquetas */
+.etiqueta {
+    font-size: 0.6rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.45rem;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+/* color de cada tipo de etiqueta */
+.etiqueta.vegano   { color: var(--verde);    border-color: var(--verde); }
+.etiqueta.singluten{ color: var(--amarillo); border-color: var(--amarillo); }
+.etiqueta.lacteo   { color: var(--cyan);     border-color: var(--cyan); }
+.etiqueta.carne    { color: var(--rojo);     border-color: var(--rojo); }
+.etiqueta.pescado  { color: var(--cyan);     border-color: var(--cyan); }
+.etiqueta.chef     { color: var(--amarillo); border-color: var(--amarillo); }
+
+
+/* el pie de pagina */
+.pie {
+    text-align: center;
+    padding: 2.5rem 1rem 2rem;
+    border-top: 2px solid var(--rojo);
+    background: radial-gradient(ellipse 70% 80% at 50% 100%, rgba(255, 60, 110, 0.1), transparent 70%);
+}
+
+.icono-pie {
+    font-size: 1.8rem;
+    color: var(--rojo);
+    text-shadow: 0 0 10px var(--rojo);
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+.nombre-pie {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 1.5rem;
+    color: var(--rojo);
+    text-shadow: 0 0 14px var(--rojo);
+    letter-spacing: 0.12em;
+}
+
+.pie p {
+    font-size: 0.72rem;
+    color: var(--texto-suave);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.texto-promo {
+    display: inline-block;
+    margin-top: 1rem;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.14em;
+    color: var(--magenta);
+    text-shadow: 0 0 10px var(--magenta);
+    border: 1px solid var(--magenta);
+    box-shadow: 0 0 14px rgba(192, 48, 255, 0.25);
+    padding: 0.45rem 1.5rem;
+}
+
+
+/* cuando la pantalla es pequeña paso a una sola columna */
+@media (max-width: 680px) {
+    .contenedor-menu {
+        grid-template-columns: 1fr;
+    }
+
+    .titulo-grande {
+        font-size: 2.4rem;
+    }
+
+    .seccion {
+        padding: 1.5rem 1.25rem;
+    }
+}

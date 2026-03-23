@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+
+    <plato tipo="arepas">
+        <nombre>Reina Pepiada</nombre>
+        <precio>6.50</precio>
+        <descripcion>Pollo desmenuzado con aguacate y mayonesa</descripcion>
+        <calorias>480</calorias>
+        <caracteristicas>
+            <categoria>Destacado</categoria>
+            <categoria>Sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="arepas">
+        <nombre>Pabellón</nombre>
+        <precio>7.00</precio>
+        <descripcion>Carne mechada, caraotas negras, tajadas y queso blanco</descripcion>
+        <calorias>620</calorias>
+        <caracteristicas>
+            <categoria>Destacado</categoria>
+            <categoria>Carne</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="arepas">
+        <nombre>Domino</nombre>
+        <precio>5.50</precio>
+        <descripcion>Caraotas negras y queso blanco rallado</descripcion>
+        <calorias>390</calorias>
+        <caracteristicas>
+            <categoria>Vegetariano</categoria>
+            <categoria>Sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="arepas">
+        <nombre>Pelúa</nombre>
+        <precio>7.50</precio>
+        <descripcion>Carne mechada y queso amarillo derretido</descripcion>
+        <calorias>560</calorias>
+        <caracteristicas>
+            <categoria>Carne</categoria>
+            <categoria>Lácteo</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="sopas">
+        <nombre>Sancocho de Gallina</nombre>
+        <precio>9.00</precio>
+        <descripcion>Gallina, papas, yuca, cambur verde y cilantro</descripcion>
+        <calorias>520</calorias>
+        <caracteristicas>
+            <categoria>Sin gluten</categoria>
+            <categoria>Carne</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="sopas">
+        <nombre>Hervido de Res</nombre>
+        <precio>9.50</precio>
+        <descripcion>Carne de res con verduras de temporada y auyama</descripcion>
+        <calorias>490</calorias>
+        <caracteristicas>
+            <categoria>Sin gluten</categoria>
+            <categoria>Carne</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="sopas">
+        <nombre>Crema de Auyama</nombre>
+        <precio>6.00</precio>
+        <descripcion>Sopa cremosa de auyama con leche de coco y jengibre</descripcion>
+        <calorias>280</calorias>
+        <caracteristicas>
+            <categoria>Vegano</categoria>
+            <categoria>Sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="platos">
+        <nombre>Pabellón Criollo</nombre>
+        <precio>12.00</precio>
+        <descripcion>Arroz blanco, carne mechada, caraotas y tajadas de plátano</descripcion>
+        <calorias>780</calorias>
+        <caracteristicas>
+            <categoria>Destacado</categoria>
+            <categoria>Sin gluten</categoria>
+            <categoria>Carne</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="platos">
+        <nombre>Carne a la Llanera</nombre>
+        <precio>15.00</precio>
+        <descripcion>Carne asada al estilo llanero con guasacaca y yuca frita</descripcion>
+        <calorias>850</calorias>
+        <caracteristicas>
+            <categoria>Destacado</categoria>
+            <categoria>Carne</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="platos">
+        <nombre>Pollo en Salsa Criolla</nombre>
+        <precio>11.00</precio>
+        <descripcion>Pollo guisado con sofrito de ají dulce, cebolla y tomate</descripcion>
+        <calorias>610</calorias>
+        <caracteristicas>
+            <categoria>Sin gluten</categoria>
+            <categoria>Carne</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="pasapalos">
+        <nombre>Tequeños</nombre>
+        <precio>5.00</precio>
+        <descripcion>Palitos de queso blanco envueltos en masa frita (6 uds)</descripcion>
+        <calorias>420</calorias>
+        <caracteristicas>
+            <categoria>Vegetariano</categoria>
+            <categoria>Lácteo</categoria>
+            <categoria>Destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="pasapalos">
+        <nombre>Empanadas de Cazón</nombre>
+        <precio>4.50</precio>
+        <descripcion>Masa de maíz rellena de cazón guisado con sofrito (3 uds)</descripcion>
+        <calorias>380</calorias>
+        <caracteristicas>
+            <categoria>Pescado</categoria>
+            <categoria>Sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="pasapalos">
+        <nombre>Tostones con Guasacaca</nombre>
+        <precio>4.00</precio>
+        <descripcion>Plátano verde frito dos veces con salsa de aguacate criolla</descripcion>
+        <calorias>310</calorias>
+        <caracteristicas>
+            <categoria>Vegano</categoria>
+            <categoria>Sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="pasapalos">
+        <nombre>Mandocas Marabinas</nombre>
+        <precio>4.50</precio>
+        <descripcion>Rosquillas de maíz y papelón fritas con queso</descripcion>
+        <calorias>350</calorias>
+        <caracteristicas>
+            <categoria>Vegetariano</categoria>
+            <categoria>Sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="postres">
+        <nombre>Bienmesabe</nombre>
+        <precio>5.00</precio>
+        <descripcion>Crema de coco con azúcar, yemas de huevo y vainilla</descripcion>
+        <calorias>380</calorias>
+        <caracteristicas>
+            <categoria>Vegetariano</categoria>
+            <categoria>Lácteo</categoria>
+            <categoria>Destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="postres">
+        <nombre>Quesillo Caraqueño</nombre>
+        <precio>5.50</precio>
+        <descripcion>Flan suave de leche condensada con caramelo oscuro</descripcion>
+        <calorias>420</calorias>
+        <caracteristicas>
+            <categoria>Vegetariano</categoria>
+            <categoria>Lácteo</categoria>
+            <categoria>Destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="postres">
+        <nombre>Tajadas con Melao</nombre>
+        <precio>4.00</precio>
+        <descripcion>Plátano maduro frito bañado en melao de papelón y queso</descripcion>
+        <calorias>340</calorias>
+        <caracteristicas>
+            <categoria>Vegetariano</categoria>
+            <categoria>Sin gluten</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="postres">
+        <nombre>Torta Bejarana</nombre>
+        <precio>4.50</precio>
+        <descripcion>Bizcocho de zanahoria y coco con glasé de vainilla</descripcion>
+        <calorias>460</calorias>
+        <caracteristicas>
+            <categoria>Vegetariano</categoria>
+            <categoria>Lácteo</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="bebidas">
+        <nombre>Papelón con Limón</nombre>
+        <precio>2.50</precio>
+        <descripcion>Refresco artesanal de panela y limón con hielo</descripcion>
+        <calorias>120</calorias>
+        <caracteristicas>
+            <categoria>Vegano</categoria>
+            <categoria>Sin gluten</categoria>
+            <categoria>Destacado</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="bebidas">
+        <nombre>Chicha Andina</nombre>
+        <precio>3.00</precio>
+        <descripcion>Bebida fría de arroz con leche, canela y papelón</descripcion>
+        <calorias>200</calorias>
+        <caracteristicas>
+            <categoria>Vegetariano</categoria>
+            <categoria>Lácteo</categoria>
+        </caracteristicas>
+    </plato>
+
+    <plato tipo="bebidas">
+        <nombre>Merengada de Parchita</nombre>
+        <precio>3.50</precio>
+        <descripcion>Batido cremoso de maracuyá con leche y azúcar</descripcion>
+        <calorias>240</calorias>
+        <caracteristicas>
+            <categoria>Vegetariano</categoria>
+            <categoria>Lácteo</categoria>
+        </caracteristicas>
+    </plato>
+
+</menu>

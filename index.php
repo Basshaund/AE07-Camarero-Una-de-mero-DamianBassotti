@@ -109,6 +109,37 @@ $infoSecciones = [
 
 </main>
 
+<!-- seccion de alergenos e iconos explicativos -->
+<div class="alergenos">
+    <h3>
+        <i class="fa-solid fa-circle-info"></i>
+        Información de alérgenos
+    </h3>
+    <div class="lista-alergenos">
+        <span class="alergeno chef">
+            <i class="fa-solid fa-star"></i> Recomendado chef
+        </span>
+        <span class="alergeno vegano">
+            <i class="fa-solid fa-seedling"></i> Vegano
+        </span>
+        <span class="alergeno vegano">
+            <i class="fa-solid fa-carrot"></i> Vegetariano
+        </span>
+        <span class="alergeno singluten">
+            <i class="fa-solid fa-wheat-awn-circle-exclamation"></i> Sin gluten
+        </span>
+        <span class="alergeno lacteo">
+            <i class="fa-solid fa-cow"></i> Contiene lácteo
+        </span>
+        <span class="alergeno carne">
+            <i class="fa-solid fa-drumstick-bite"></i> Contiene carne
+        </span>
+        <span class="alergeno pescado">
+            <i class="fa-solid fa-fish"></i> Contiene pescado
+        </span>
+    </div>
+</div>
+
 <!-- pie de pagina con info del restaurante -->
 <footer class="pie">
     <i class="fa-solid fa-bowl-food icono-pie"></i>

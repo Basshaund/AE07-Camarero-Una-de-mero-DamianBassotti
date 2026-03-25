@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Titillium+Web:wght@300;400;700&display=swap');
 
 /* aqui guardo los colores para no repetirlos por todo el css
-   si quiero cambiar el rojo lo cambio aqui y ya esta en todos lados */
+   si quiero cambiar el rojo lo cambio aqui y ya esta en todos lados, usando var */
 :root {
     --negro:        #07070f;
     --negro-suave:  #0d0d1a;
@@ -14,7 +14,7 @@
     --texto-suave:  rgba(240, 238, 255, 0.5);
 }
 
-/* reseteo margen y padding de todo para que no haya sorpresas */
+/* reseteo margen y padding de todo para que no haya sorpresas, osea que no se descurahinge por que si */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -110,7 +110,7 @@ body {
     align-items: center;
     gap: 0.5rem;
 
-    /* linea separadora abajo del titulo */
+    /* linea separadora abajo del titulo, aqui no use una variable por que no es un color que se repita */
     padding-bottom: 0.75rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
@@ -144,6 +144,7 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+/* al ultimo plato de la lista le quito el borde de abajo, por eso el last child */
 .un-plato:last-child {
     border-bottom: none;
 }

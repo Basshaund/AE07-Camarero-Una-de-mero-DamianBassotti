@@ -6,6 +6,7 @@
         <precio>6.50</precio>
         <descripcion>Pollo desmenuzado con aguacate y mayonesa</descripcion>
         <calorias>480</calorias>
+        <icono>fa-solid fa-circle</icono>
         <caracteristicas>
             <categoria>Destacado</categoria>
             <categoria>Sin gluten</categoria>
@@ -17,6 +18,7 @@
         <precio>7.00</precio>
         <descripcion>Carne mechada, caraotas negras, tajadas y queso blanco</descripcion>
         <calorias>620</calorias>
+        <icono>fa-solid fa-circle</icono>
         <caracteristicas>
             <categoria>Destacado</categoria>
             <categoria>Carne</categoria>
@@ -28,6 +30,7 @@
         <precio>5.50</precio>
         <descripcion>Caraotas negras y queso blanco rallado</descripcion>
         <calorias>390</calorias>
+        <icono>fa-solid fa-circle</icono>
         <caracteristicas>
             <categoria>Vegetariano</categoria>
             <categoria>Sin gluten</categoria>
@@ -39,6 +42,7 @@
         <precio>7.50</precio>
         <descripcion>Carne mechada y queso amarillo derretido</descripcion>
         <calorias>560</calorias>
+        <icono>fa-solid fa-circle</icono>
         <caracteristicas>
             <categoria>Carne</categoria>
             <categoria>Lácteo</categoria>
@@ -50,6 +54,7 @@
         <precio>9.00</precio>
         <descripcion>Gallina, papas, yuca, cambur verde y cilantro</descripcion>
         <calorias>520</calorias>
+        <icono>fa-solid fa-bowl-food</icono>
         <caracteristicas>
             <categoria>Sin gluten</categoria>
             <categoria>Carne</categoria>
@@ -61,6 +66,7 @@
         <precio>9.50</precio>
         <descripcion>Carne de res con verduras de temporada y auyama</descripcion>
         <calorias>490</calorias>
+        <icono>fa-solid fa-bowl-food</icono>
         <caracteristicas>
             <categoria>Sin gluten</categoria>
             <categoria>Carne</categoria>
@@ -72,6 +78,7 @@
         <precio>6.00</precio>
         <descripcion>Sopa cremosa de auyama con leche de coco y jengibre</descripcion>
         <calorias>280</calorias>
+        <icono>fa-solid fa-bowl-food</icono>
         <caracteristicas>
             <categoria>Vegano</categoria>
             <categoria>Sin gluten</categoria>
@@ -83,6 +90,7 @@
         <precio>12.00</precio>
         <descripcion>Arroz blanco, carne mechada, caraotas y tajadas de plátano</descripcion>
         <calorias>780</calorias>
+        <icono>fa-solid fa-plate-wheat</icono>
         <caracteristicas>
             <categoria>Destacado</categoria>
             <categoria>Sin gluten</categoria>
@@ -95,6 +103,7 @@
         <precio>15.00</precio>
         <descripcion>Carne asada al estilo llanero con guasacaca y yuca frita</descripcion>
         <calorias>850</calorias>
+        <icono>fa-solid fa-fire-flame-curved</icono>
         <caracteristicas>
             <categoria>Destacado</categoria>
             <categoria>Carne</categoria>
@@ -106,6 +115,7 @@
         <precio>11.00</precio>
         <descripcion>Pollo guisado con sofrito de ají dulce, cebolla y tomate</descripcion>
         <calorias>610</calorias>
+        <icono>fa-solid fa-drumstick-bite</icono>
         <caracteristicas>
             <categoria>Sin gluten</categoria>
             <categoria>Carne</categoria>
@@ -117,6 +127,7 @@
         <precio>5.00</precio>
         <descripcion>Palitos de queso blanco envueltos en masa frita (6 uds)</descripcion>
         <calorias>420</calorias>
+        <icono>fa-solid fa-bread-slice</icono>
         <caracteristicas>
             <categoria>Vegetariano</categoria>
             <categoria>Lácteo</categoria>
@@ -129,6 +140,7 @@
         <precio>4.50</precio>
         <descripcion>Masa de maíz rellena de cazón guisado con sofrito (3 uds)</descripcion>
         <calorias>380</calorias>
+        <icono>fa-solid fa-fish</icono>
         <caracteristicas>
             <categoria>Pescado</categoria>
             <categoria>Sin gluten</categoria>
@@ -140,6 +152,7 @@
         <precio>4.00</precio>
         <descripcion>Plátano verde frito dos veces con salsa de aguacate criolla</descripcion>
         <calorias>310</calorias>
+        <icono>fa-solid fa-seedling</icono>
         <caracteristicas>
             <categoria>Vegano</categoria>
             <categoria>Sin gluten</categoria>
@@ -151,6 +164,7 @@
         <precio>4.50</precio>
         <descripcion>Rosquillas de maíz y papelón fritas con queso</descripcion>
         <calorias>350</calorias>
+        <icono>fa-solid fa-cookie</icono>
         <caracteristicas>
             <categoria>Vegetariano</categoria>
             <categoria>Sin gluten</categoria>
@@ -162,6 +176,7 @@
         <precio>5.00</precio>
         <descripcion>Crema de coco con azúcar, yemas de huevo y vainilla</descripcion>
         <calorias>380</calorias>
+        <icono>fa-solid fa-jar</icono>
         <caracteristicas>
             <categoria>Vegetariano</categoria>
             <categoria>Lácteo</categoria>
@@ -174,6 +189,7 @@
         <precio>5.50</precio>
         <descripcion>Flan suave de leche condensada con caramelo oscuro</descripcion>
         <calorias>420</calorias>
+        <icono>fa-solid fa-cake-candles</icono>
         <caracteristicas>
             <categoria>Vegetariano</categoria>
             <categoria>Lácteo</categoria>
@@ -186,6 +202,7 @@
         <precio>4.00</precio>
         <descripcion>Plátano maduro frito bañado en melao de papelón y queso</descripcion>
         <calorias>340</calorias>
+        <icono>fa-solid fa-lemon</icono>
         <caracteristicas>
             <categoria>Vegetariano</categoria>
             <categoria>Sin gluten</categoria>
@@ -197,6 +214,7 @@
         <precio>4.50</precio>
         <descripcion>Bizcocho de zanahoria y coco con glasé de vainilla</descripcion>
         <calorias>460</calorias>
+        <icono>fa-solid fa-cake-candles</icono>
         <caracteristicas>
             <categoria>Vegetariano</categoria>
             <categoria>Lácteo</categoria>
@@ -208,6 +226,7 @@
         <precio>2.50</precio>
         <descripcion>Refresco artesanal de panela y limón con hielo</descripcion>
         <calorias>120</calorias>
+        <icono>fa-solid fa-glass-water</icono>
         <caracteristicas>
             <categoria>Vegano</categoria>
             <categoria>Sin gluten</categoria>
@@ -220,6 +239,7 @@
         <precio>3.00</precio>
         <descripcion>Bebida fría de arroz con leche, canela y papelón</descripcion>
         <calorias>200</calorias>
+        <icono>fa-solid fa-mug-hot</icono>
         <caracteristicas>
             <categoria>Vegetariano</categoria>
             <categoria>Lácteo</categoria>
@@ -231,6 +251,7 @@
         <precio>3.50</precio>
         <descripcion>Batido cremoso de maracuyá con leche y azúcar</descripcion>
         <calorias>240</calorias>
+        <icono>fa-solid fa-blender</icono>
         <caracteristicas>
             <categoria>Vegetariano</categoria>
             <categoria>Lácteo</categoria>

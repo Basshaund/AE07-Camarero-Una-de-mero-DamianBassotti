@@ -165,6 +165,13 @@ body {
     white-space: nowrap;
 }
 
+/* icono pequeño que va antes del nombre del plato, viene del xml */
+.icono-plato {
+    font-size: 0.75rem;
+    opacity: 0.5;
+    flex-shrink: 0;
+}
+
 /* los puntitos que van entre el nombre y el precio
    flex:1 hace que se estiren para ocupar todo el espacio del medio */
 .puntitos {

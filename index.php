@@ -35,6 +35,9 @@ $infoSecciones = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Arepera de Caracas</title>
 
+    <!-- favicon usando font awesome via svg inline -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🫓</text></svg>">
+
     <!-- iconos de font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -70,6 +73,8 @@ $infoSecciones = [
 
                     <!-- fila con nombre, puntitos y precio -->
                     <div class="fila-nombre-precio">
+                        <!-- el icono viene del xml, cada plato puede tener el suyo -->
+                        <i class="<?= $cadaPlato->icono ?> icono-plato"></i>
                         <span class="nombre-plato"><?= $cadaPlato->nombre ?></span>
                         <span class="puntitos"></span>
                         <!-- number_format convierte 6.5 en 6.50, siempre con dos decimales -->

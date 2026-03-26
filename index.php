@@ -145,7 +145,7 @@ $infoSecciones = [
     <i class="fa-solid fa-bowl-food icono-pie"></i>
     <p class="nombre-pie">La Arepera de Caracas</p>
     <p>C/ Venezuela, 12 · Barcelona · +34 632 76 11 19</p>
-    <p>Todos los días · 16:00–12:00 y 20:00–24:00</p>
+    <p>Todos los días · 16:00–24:00 y 20:00–24:00</p>
     <p class="texto-promo">¡Pregunta por la promo del día!</p>
 </footer>
 
